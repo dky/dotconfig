@@ -1,0 +1,9 @@
+[[snippets]]
+  description = "cd **, remember to hit tab"
+  command = "cd **"
+  output = ""
+
+[[snippets]]
+  description = "Get diffs on staged files"
+  command = "git diff --staged"
+  output = ""
