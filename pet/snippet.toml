@@ -7,3 +7,8 @@
   description = "Get diffs on staged files"
   command = "git diff --staged"
   output = ""
+
+[[snippets]]
+  description = "Describe a Kafka topic"
+  command = "2020-04-14 14:16:50 kafka-topics --describe --zookeeper server:2181 --topic topic"
+  output = ""
