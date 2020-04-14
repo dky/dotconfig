@@ -17,3 +17,18 @@
   description = "Kafka topic list"
   command = "kafka-topics --list --zookeeper <zookeeper>:2181"
   output = ""
+
+[[snippets]]
+  description = "Kafka create topic"
+  command = "kafka-topics --create --zookeeper <zookeeper>:2181 --replication-factor <replication_factor> --partitions <partition_count> --topic <topic_name>"
+  output = ""
+
+[[snippets]]
+  description = "Set http_proxy, https_proxy HTTP_PROXY, HTTPS_PROXY"
+  command = "export http_proxy=http://<proxy>:3128 https_proxy=http://<proxy>:3128 HTTP_PROXY=http://<proxy>:3128 HTTPS_PROXY=http://<proxy>:3128"
+  output = ""
+
+[[snippets]]
+  description = "Unset http_proxy, https_proxy, HTTP_PROXY, HTTPS_PROXY"
+  command = "unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
+  output = ""
