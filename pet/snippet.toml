@@ -1,5 +1,5 @@
 [[snippets]]
-  description = "cd **, remember to hit tab"
+  description = "cd **, remember to hit tab, use fzf to cd"
   command = "cd **"
   output = ""
 
@@ -9,6 +9,11 @@
   output = ""
 
 [[snippets]]
-  description = "Describe a Kafka topic"
-  command = "2020-04-14 14:16:50 kafka-topics --describe --zookeeper server:2181 --topic topic"
+  description = "Kafka topic describe"
+  command = "kafka-topics --describe --zookeeper <zookeeper>:2181 --topic <topic>"
+  output = ""
+
+[[snippets]]
+  description = "Kafka topic list"
+  command = "kafka-topics --list --zookeeper <zookeeper>:2181"
   output = ""
