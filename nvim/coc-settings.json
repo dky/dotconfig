@@ -1,6 +1,4 @@
 {
   "python.jediEnabled": false,
-  "pyright.disableLanguageServices": true,
-  "pyright.linting.mypyEnabled": true
+  "pyright.disableLanguageServices": true
 }
-
