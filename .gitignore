@@ -9,3 +9,5 @@ gtk-*
 kitty
 pgcli/history
 pgcli/log
+.DS_Store
+ranger/plugins
