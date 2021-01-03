@@ -1,4 +1,5 @@
 {
   "python.jediEnabled": false,
-  "pyright.disableLanguageServices": true
+  "pyright.disableLanguageServices": true,
+  "python.linting.enabled": true
 }
