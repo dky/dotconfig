@@ -1,5 +1,6 @@
 {
   "python.jediEnabled": false,
   "pyright.disableLanguageServices": true,
-  "python.linting.enabled": true
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black"
 }
