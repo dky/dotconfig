@@ -1,3 +1,13 @@
 configstore
 htop
 asciinema
+coc
+flake8
+gh
+karabiner
+gtk-*
+kitty
+pgcli/history
+pgcli/log
+.DS_Store
+ranger/plugins
