@@ -32,3 +32,13 @@
   description = "Unset http_proxy, https_proxy, HTTP_PROXY, HTTPS_PROXY"
   command = "unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
   output = ""
+
+[[snippets]]
+  description = "Docker add a label to a node, labels are k/v"
+  command = "docker node update --label-add <key>=<value> <node>"
+  output = ""
+
+[[snippets]]
+  description = "Docker set availability of the node \"active|drain\""
+  command = "docker node update --availability <state> <node>"
+  output = ""
