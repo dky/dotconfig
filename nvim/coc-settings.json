@@ -2,5 +2,6 @@
   "python.jediEnabled": false,
   "pyright.disableLanguageServices": true,
   "python.linting.enabled": false,
-  "diagnostic.displayByAle": true
+  "diagnostic.displayByAle": true,
+  "coc.preferences.hoverTarget": "float"
 }
