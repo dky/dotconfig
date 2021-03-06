@@ -3,5 +3,11 @@
   "pyright.disableLanguageServices": true,
   "python.linting.enabled": false,
   "diagnostic.displayByAle": true,
-  "coc.preferences.hoverTarget": "float"
+  "coc.preferences.hoverTarget": "float",
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "filetypes": ["go"]
+    }
+  }
 }
