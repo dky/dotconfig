@@ -12,3 +12,4 @@ pgcli/log
 .DS_Store
 ranger/plugins
 exercism/*
+iterm2/*
