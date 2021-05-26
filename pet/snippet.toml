@@ -42,3 +42,8 @@
   description = "Docker set availability of the node \"active|drain\""
   command = "docker node update --availability <state> <node>"
   output = ""
+
+[[snippets]]
+  description = "For loop to list all pem files minus gpg files - Used to see pem files that were updated"
+  command = "for f in archive/*/privkey*pem; do if [ ! -e ${f}.gpg ]; then echo ${f}; fi; done"
+  output = ""
