@@ -4,6 +4,10 @@ source ~/.dotfiles/vim/plug.vim
 " Load in plugin-specific-configs
 call plug#end()
 
+"Call nvim-lsp specific
+source ~/.dotfiles/lua/lsp.lua
+source ~/.dotfiles/lua/treesitter.lua
+
 " Source all plugin specific configurations here
 source ~/.dotfiles/vim/plugins.vim
 " Load in autocommands
@@ -14,8 +18,6 @@ source ~/.dotfiles/vim/cabbrev.vim
 source ~/.dotfiles/vim/maps.vim
 " Load in funcs
 source ~/.dotfiles/vim/functions.vim
-" Load in highlighting
-source ~/.dotfiles/vim/highlights.vim
 " airline
 source ~/.dotfiles/vim/airline.vim
 " ale
@@ -61,7 +63,7 @@ set noerrorbells         "don't beep
 set laststatus=2
 
 " colorscheme - molokai or hybrid
-silent! colorscheme molokai
+silent! colorscheme hybrid
 
 " used for vimscripts
 scriptencoding utf-8
@@ -82,12 +84,6 @@ elseif has ("noselect")
 	set completeopt+=noselect
 endif
 
-source ~/.dotfiles/lua/lsp.lua
-source ~/.dotfiles/lua/treesitter.lua
-"call compe for python and go for now
-autocmd BufNewFile,BufRead *.py,*.go source ~/.dotfiles/lua/compe-config.lua
-"Only use coc completion for markdown files, with the coc-dictionary
-"extension, everything else should use nvim compe until multifile
-"dictionary support is added
-"coc-plugin is only enabled for markdown files see plug.vim
-autocmd BufNewFile,BufRead *.md source ~/.dotfiles/vim/coc.vim
+" Load in highlighting, load this at bottom because otherwise LSP Color
+" schemes appear to get overridden
+source ~/.dotfiles/vim/highlights.vim
