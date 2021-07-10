@@ -1,7 +1,4 @@
 call plug#begin('~/.vim/plugged')
-" nvim view/cache location
-" $HOME/.local/share/nvim/view
-"
 " Source all plug plugins
 source ~/.dotfiles/vim/plug.vim
 " Load in plugin-specific-configs
@@ -28,9 +25,7 @@ source ~/.dotfiles/vim/whichkey.vim
 " floaterm
 source ~/.dotfiles/vim/floaterm.vim
 
-filetype on
 set ruler
-set nocompatible
 set hidden
 set mouse=a
 
