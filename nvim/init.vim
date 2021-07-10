@@ -9,6 +9,7 @@ source ~/.dotfiles/lua/lsp.lua
 " lsp non-lua
 source ~/.dotfiles/vim/lsp.vim
 source ~/.dotfiles/lua/treesitter.lua
+source ~/.dotfiles/lua/compe-custom-dictionary.lua
 
 " Source all plugin specific configurations here
 source ~/.dotfiles/vim/plugins.vim
@@ -67,7 +68,7 @@ set noerrorbells         "don't beep
 set laststatus=2
 
 " colorscheme - molokai or hybrid
-silent! colorscheme hybrid
+silent! colorscheme molokai
 
 " used for vimscripts
 scriptencoding utf-8
