@@ -22,8 +22,6 @@ source ~/.dotfiles/vim/maps.vim
 source ~/.dotfiles/vim/functions.vim
 " airline
 source ~/.dotfiles/vim/airline.vim
-" ale
-"source ~/.dotfiles/vim/ale.vim
 " whichkey
 source ~/.dotfiles/vim/whichkey.vim
 " floaterm
