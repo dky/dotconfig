@@ -28,6 +28,8 @@ source ~/.dotfiles/vim/whichkey.vim
 source ~/.dotfiles/vim/floaterm.vim
 " neoformat
 source ~/.dotfiles/vim/neoformat.vim
+" vim-vsnip
+source ~/.dotfiles/vim/vsnip.vim
 
 set ruler
 set hidden
