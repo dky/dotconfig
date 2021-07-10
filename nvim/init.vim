@@ -26,6 +26,8 @@ source ~/.dotfiles/vim/airline.vim
 source ~/.dotfiles/vim/whichkey.vim
 " floaterm
 source ~/.dotfiles/vim/floaterm.vim
+" neoformat
+source ~/.dotfiles/vim/neoformat.vim
 
 set ruler
 set hidden
