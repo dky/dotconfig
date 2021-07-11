@@ -9,7 +9,6 @@ source ~/.dotfiles/lua/lsp.lua
 " lsp non-lua
 source ~/.dotfiles/vim/lsp.vim
 source ~/.dotfiles/lua/treesitter.lua
-source ~/.dotfiles/lua/compe-custom-dictionary.lua
 
 " Source all plugin specific configurations here
 source ~/.dotfiles/vim/plugins.vim
@@ -77,7 +76,7 @@ scriptencoding utf-8
 set updatetime=100
 
 set encoding=utf-8
-set listchars=eol:¬,tab:▸-,trail:~,extends:>,precedes:<
+set listchars=eol:¬,tab:▸-,trail:~,extends:>,precedes:<,space:⋅
 set list
 
 set cursorline
