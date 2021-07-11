@@ -6,9 +6,10 @@ call plug#end()
 
 "Call nvim-lsp specific
 source ~/.dotfiles/lua/lsp.lua
+source ~/.dotfiles/lua/treesitter.lua
+source ~/.dotfiles/lua/compe-config.lua
 " lsp non-lua
 source ~/.dotfiles/vim/lsp.vim
-source ~/.dotfiles/lua/treesitter.lua
 
 " Source all plugin specific configurations here
 source ~/.dotfiles/vim/plugins.vim
