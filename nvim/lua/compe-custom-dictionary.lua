@@ -1,0 +1,1 @@
+/Users/dky/.dotfiles/lua/compe-custom-dictionary.lua
