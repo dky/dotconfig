@@ -34,7 +34,7 @@ source ~/.dotfiles/vim/vsnip.vim
 
 set ruler
 set hidden
-set mouse=a
+"set mouse=a
 
 " no backups and swap
 set noswapfile
