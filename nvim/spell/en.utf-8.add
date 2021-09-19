@@ -3,3 +3,14 @@ DNS
 automagically
 Configs
 K8
+goroutine
+Waitgroups
+Goroutines
+Mutexes
+goroutines
+Parallelism
+Chroot
+Cgroups
+Timesharing
+InterProcess
+syscalls
