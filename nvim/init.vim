@@ -8,6 +8,7 @@ call plug#end()
 source ~/.dotfiles/lua/lsp.lua
 source ~/.dotfiles/lua/treesitter.lua
 source ~/.dotfiles/lua/compe-config.lua
+source ~/.dotfiles/lua/autopairs.lua
 " lsp non-lua
 source ~/.dotfiles/vim/lsp.vim
 
