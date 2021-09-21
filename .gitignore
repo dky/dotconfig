@@ -14,3 +14,5 @@ ranger/plugins
 exercism/*
 iterm2/*
 yarn
+pip
+nvim/spell/
