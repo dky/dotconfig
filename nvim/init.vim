@@ -69,7 +69,8 @@ set noerrorbells         "don't beep
 set laststatus=2
 
 " colorscheme - molokai or hybrid
-silent! colorscheme molokai
+"silent! colorscheme molokai
+silent! colorscheme monokai
 
 " used for vimscripts
 scriptencoding utf-8
