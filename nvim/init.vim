@@ -23,7 +23,7 @@ source ~/.dotfiles/vim/maps.vim
 " Load in funcs
 source ~/.dotfiles/vim/functions.vim
 " airline
-source ~/.dotfiles/vim/airline.vim
+"source ~/.dotfiles/vim/airline.vim
 " whichkey
 source ~/.dotfiles/vim/whichkey.vim
 " floaterm
