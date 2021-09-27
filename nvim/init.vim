@@ -34,6 +34,8 @@ source ~/.dotfiles/vim/neoformat.vim
 source ~/.dotfiles/vim/vsnip.vim
 " git-gutter
 source ~/.dotfiles/lua/git-gutter.lua
+" status
+source ~/.dotfiles/lua/status-line.lua
 
 set ruler
 set hidden
