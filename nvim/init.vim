@@ -32,6 +32,8 @@ source ~/.dotfiles/vim/floaterm.vim
 source ~/.dotfiles/vim/neoformat.vim
 " vim-vsnip
 source ~/.dotfiles/vim/vsnip.vim
+" git-gutter
+source ~/.dotfiles/lua/git-gutter.lua
 
 set ruler
 set hidden
