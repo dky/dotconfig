@@ -72,7 +72,7 @@ set noerrorbells         "don't beep
 " set statusline at the bottom
 set laststatus=2
 
-" treat words with - as a single so I can delete without it stopping at -
+" treat words with - as a single ex: test-word is a single word vs 2
 set iskeyword+=-
 
 " colorscheme - molokai or hybrid
