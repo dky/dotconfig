@@ -24,3 +24,14 @@ cardinality
 stateful
 balancer
 namespace
+Skewness
+Kurtosis
+covariance
+Bivariate
+dataset
+Univariate
+runtime
+https
+lookups
+origin
+repo
