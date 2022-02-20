@@ -37,6 +37,8 @@ source ~/.dotfiles/vim/vsnip.vim
 source ~/.dotfiles/lua/git-gutter.lua
 " status
 source ~/.dotfiles/lua/status-line.lua
+" autosave
+source ~/.dotfiles/lua/autosave.lua
 
 set ruler
 set hidden
