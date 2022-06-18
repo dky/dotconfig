@@ -39,6 +39,8 @@ source ~/.dotfiles/lua/git-signs.lua
 source ~/.dotfiles/lua/status-line.lua
 " autosave
 source ~/.dotfiles/lua/autosave.lua
+" trouble
+source ~/.dotfiles/lua/trouble.lua
 
 set ruler
 set hidden
