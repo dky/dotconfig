@@ -10,8 +10,6 @@ source ~/.dotfiles/lua/treesitter.lua
 "source ~/.dotfiles/lua/compe-config.lua
 source ~/.dotfiles/lua/cmp-config.lua
 source ~/.dotfiles/lua/autopairs.lua
-" lsp non-lua
-source ~/.dotfiles/vim/lsp.vim
 
 " Source all plugin specific configurations here
 source ~/.dotfiles/vim/plugins.vim
