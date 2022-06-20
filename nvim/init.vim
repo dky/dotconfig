@@ -39,6 +39,8 @@ source ~/.dotfiles/lua/status-line.lua
 source ~/.dotfiles/lua/autosave.lua
 " trouble
 source ~/.dotfiles/lua/trouble.lua
+" null-ls
+source ~/.dotfiles/lua/null-ls.lua
 
 set ruler
 set hidden
