@@ -45,6 +45,7 @@ source ~/.dotfiles/lua/null-ls.lua
 set ruler
 set hidden
 "set mouse=a
+set mouse=
 
 " no backups and swap
 set noswapfile
