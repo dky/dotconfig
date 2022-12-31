@@ -104,6 +104,12 @@ elseif has ("noselect")
 	set completeopt+=noselect
 endif
 
+" Highlight the yanks
+augroup highlight_yank
+	autocmd!
+	au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
+augroup END
+
 " Load in highlighting, load this at bottom because otherwise LSP Color
 " schemes appear to get overridden
 source ~/.dotfiles/vim/highlights.vim
