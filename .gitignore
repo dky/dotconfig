@@ -1,18 +1,7 @@
-configstore
-htop
-asciinema
-coc
-gh
-karabiner
-gtk-*
-kitty
-pgcli/history
-pgcli/log
-.DS_Store
-ranger/plugins
-exercism/*
-iterm2/*
-yarn
-pip
-nvim/spell/
-containers
+# Ignore everything:
+*
+
+# Do not ignore these files:
+nvim
+pylintrc
+flake8
