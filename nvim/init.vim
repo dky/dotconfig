@@ -41,6 +41,8 @@ source ~/.dotfiles/lua/autosave.lua
 source ~/.dotfiles/lua/trouble.lua
 " null-ls
 source ~/.dotfiles/lua/null-ls.lua
+" copilot
+source ~/.dotfiles/lua/copilot.lua
 
 set ruler
 set hidden
