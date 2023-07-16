@@ -42,7 +42,9 @@ source ~/.dotfiles/lua/trouble.lua
 " null-ls
 source ~/.dotfiles/lua/null-ls.lua
 " copilot
-source ~/.dotfiles/lua/copilot.lua
+if !empty($ENABLE_COPILOT)
+	source ~/.dotfiles/lua/copilot.lua
+endif
 
 set ruler
 set hidden
