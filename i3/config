@@ -53,6 +53,10 @@ bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
 # change focus between tiling / floating windows
 #bindsym $mod+space focus mode_toggle
 
+# Brightness controls for macbook. Make sure you add yourself to video group or else you have to use sudo which is annoying
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
