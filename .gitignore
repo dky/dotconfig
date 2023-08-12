@@ -1,7 +1,0 @@
-# Ignore everything:
-*
-
-# Do not ignore these files:
-!nvim/*
-!pylintrc
-!flake8
