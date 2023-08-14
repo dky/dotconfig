@@ -188,5 +188,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        # Hide the bar but reveal if the mod key is pressed
         mode hide
 }
