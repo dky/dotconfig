@@ -24,7 +24,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Use pactl to adjust volume in PulseAudio.
+# Use pactl to adjust volume in PulseAudio. TODO figure out how we can add some max volume limit to this...
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +1% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -1% && $refresh_i3status
@@ -35,6 +35,14 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Screen brightness controls. Make sure you add yourself to video group or else you have to use sudo which is annoying
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
+# Control keyboard backlight brightness
+bindsym XF86KbdBrightnessDown exec /home/dky/bin/brightness -n decrease 10 # decrease keyboard brightness (F5)
+bindsym XF86KbdBrightnessUp exec /home/dky/bin/brightness -n increase 10 # increase keyboard brightness (F6)
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -57,14 +65,6 @@ bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
 
 # change focus between tiling / floating windows
 #bindsym $mod+space focus mode_toggle
-
-# Brightness controls for macbook. Make sure you add yourself to video group or else you have to use sudo which is annoying
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
-
-# Fn + F5 + F6 to control keyboard brightness
-bindsym XF86KbdBrightnessDown exec /home/dky/bin/brightness -n decrease 10 # decrease keyboard brightness (F5)
-bindsym XF86KbdBrightnessUp exec /home/dky/bin/brightness -n increase 10 # increase keyboard brightness (F6)
 
 # change focus
 bindsym $mod+j focus left
