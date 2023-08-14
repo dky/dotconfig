@@ -62,6 +62,10 @@ bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
+# Fn + F5 + F6 to control keyboard brightness
+bindcode 71 exec /home/dky/bin/brightness -n decrease 10 # decrease keyboard brightness (F5)
+bindcode 72 exec /home/dky/bin/brightness -n increase 10 # increase keyboard brightness (F6)
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
