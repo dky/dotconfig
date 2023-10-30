@@ -46,6 +46,10 @@ if !empty($ENABLE_COPILOT)
 	source ~/.dotfiles/lua/copilot.lua
 endif
 
+if !empty($OPENAI_API_KEY)
+	source ~/.dotfiles/lua/chatgpt.lua
+endif
+
 set ruler
 set hidden
 "set mouse=a
