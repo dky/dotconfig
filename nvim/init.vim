@@ -42,9 +42,9 @@ source ~/.dotfiles/lua/trouble.lua
 " null-ls
 source ~/.dotfiles/lua/null-ls.lua
 " copilot
-if !empty($ENABLE_COPILOT)
-	source ~/.dotfiles/lua/copilot.lua
-endif
+"if !empty($ENABLE_COPILOT)
+"	source ~/.dotfiles/lua/copilot.lua
+"endif
 
 if !empty($OPENAI_API_KEY)
 	source ~/.dotfiles/lua/chatgpt.lua
