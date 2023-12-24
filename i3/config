@@ -56,7 +56,8 @@ bindsym $mod+q kill
 # start dmenu (a program launcher)
 # Remap dmenu similar to a launchbar on windows - This does conflict below with change focus between tiling / floating windows
 #bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+space exec --no-startup-id dmenu_run -fn 'monospace-19'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
