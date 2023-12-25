@@ -1,6 +1,9 @@
 # set to mod4 to make this windows key as mod
 set $mod Mod4
 
+# sudo dnf install xsetroot - sets the background color #000000 = black, #333333 = grey
+exec --no-startup-id xsetroot -solid "#000000"
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:monospace 17
@@ -18,7 +21,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -57,7 +60,7 @@ bindsym $mod+q kill
 # Remap dmenu similar to a launchbar on windows - This does conflict below with change focus between tiling / floating windows
 #bindsym $mod+d exec --no-startup-id dmenu_run
 #bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+space exec --no-startup-id dmenu_run -fn 'monospace-19'
+bindsym $mod+space exec --no-startup-id dmenu_run -fn 'monospace-18'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
