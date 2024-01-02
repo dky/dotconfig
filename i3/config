@@ -1,3 +1,19 @@
+include $HOME/.config/i3/workspaces.conf
+
+# fire off some screen-rearrangements
+exec --no-startup-id ~/.config/i3/autostart.sh
+
+# framework amd
+set $fw_amd_23 DisplayPort-2
+set $fw_amd_27-1 DisplayPort-3
+set $fw_amd_27-2 DisplayPort-1
+set $fw_main eDP
+
+# set to mod4 to make this windows key as mod
+set $mod Mod4
+
+# sudo dnf install xsetroot - sets the background color #000000 = black, #333333 = grey
+exec --no-startup-id xsetroot -solid "#000000"
 # set to mod4 to make this windows key as mod
 set $mod Mod4
 
