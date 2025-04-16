@@ -76,7 +76,9 @@ set incsearch
 set foldenable
 
 " enable paste mode for pasted code
-set pastetoggle=<F2>
+" Depreciated:
+" https://cirw.in/blog/bracketed-paste
+"set pastetoggle=<F2>
 
 " allow backspacing in insert mode
 set backspace=indent,eol,start
