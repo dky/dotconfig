@@ -21,8 +21,6 @@ source ~/.dotfiles/vim/cabbrev.vim
 source ~/.dotfiles/vim/maps.vim
 " Load in funcs
 source ~/.dotfiles/vim/functions.vim
-" airline
-"source ~/.dotfiles/vim/airline.vim
 " whichkey
 source ~/.dotfiles/vim/whichkey.vim
 " floaterm
@@ -39,16 +37,6 @@ source ~/.dotfiles/lua/status-line.lua
 source ~/.dotfiles/lua/autosave.lua
 " trouble
 source ~/.dotfiles/lua/trouble.lua
-" null-ls
-"source ~/.dotfiles/lua/null-ls.lua
-" copilot
-"if !empty($ENABLE_COPILOT)
-"	source ~/.dotfiles/lua/copilot.lua
-"endif
-
-if !empty($OPENAI_API_KEY)
-	source ~/.dotfiles/lua/chatgpt.lua
-endif
 
 set ruler
 set hidden
