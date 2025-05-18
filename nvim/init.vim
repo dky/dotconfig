@@ -32,7 +32,7 @@ source ~/.dotfiles/vim/vsnip.vim
 " git-gutter
 source ~/.dotfiles/lua/git-signs.lua
 " status
-source ~/.dotfiles/lua/status-line.lua
+source ~/.dotfiles/lua/lualine.lua
 " autosave
 source ~/.dotfiles/lua/autosave.lua
 " trouble
