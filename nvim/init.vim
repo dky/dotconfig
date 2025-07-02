@@ -35,6 +35,10 @@ source ~/.dotfiles/lua/git-signs.lua
 source ~/.dotfiles/lua/lualine.lua
 " autosave
 source ~/.dotfiles/lua/autosave.lua
+" bufline
+source ~/.dotfiles/lua/buffline.lua
+" persisted
+source ~/.dotfiles/lua/persisted.lua
 
 set ruler
 set hidden
