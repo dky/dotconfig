@@ -39,6 +39,8 @@ source ~/.dotfiles/lua/autosave.lua
 source ~/.dotfiles/lua/buffline.lua
 " persisted
 source ~/.dotfiles/lua/persisted.lua
+" claude
+source ~/.dotfiles/lua/claude.lua
 
 set ruler
 set hidden
