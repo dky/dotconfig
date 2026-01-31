@@ -118,4 +118,5 @@ augroup END
 " schemes appear to get overridden
 source ~/.dotfiles/vim/highlights.vim
 
+" Enable mouse support
 :set mouse=a
