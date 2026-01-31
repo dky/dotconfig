@@ -22,7 +22,7 @@ source ~/.dotfiles/vim/maps.vim
 " Load in funcs
 source ~/.dotfiles/vim/functions.vim
 " whichkey
-source ~/.dotfiles/vim/whichkey.vim
+"source ~/.dotfiles/vim/whichkey.vim
 " floaterm
 source ~/.dotfiles/vim/floaterm.vim
 " neoformat
@@ -41,6 +41,8 @@ source ~/.dotfiles/lua/buffline.lua
 source ~/.dotfiles/lua/persisted.lua
 " claude
 source ~/.dotfiles/lua/claude.lua
+" whichkey
+source ~/.dotfiles/lua/whichkey.lua
 
 set ruler
 set hidden
@@ -115,3 +117,5 @@ augroup END
 " Load in highlighting, load this at bottom because otherwise LSP Color
 " schemes appear to get overridden
 source ~/.dotfiles/vim/highlights.vim
+
+:set mouse=a
