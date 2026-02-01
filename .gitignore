@@ -1,4 +1,8 @@
 *
-!nvim/init.vim
+!.gitignore
+!nvim/
+!nvim/**
 !i3/
-!ghostty
+!i3/**
+!ghostty/
+!ghostty/**
