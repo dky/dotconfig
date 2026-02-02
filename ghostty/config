@@ -6,7 +6,6 @@ copy-on-select = clipboard
 # Window
 window-height = 50
 window-width = 200
-macos-titlebar-style = hidden
 
 # Keybinds
 keybind = shift+enter=text:\n
