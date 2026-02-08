@@ -41,6 +41,8 @@ source ~/.dotfiles/lua/buffline.lua
 source ~/.dotfiles/lua/persisted.lua
 " claude
 source ~/.dotfiles/lua/claude.lua
+" copilot
+source ~/.dotfiles/lua/copilot-config.lua
 " whichkey
 source ~/.dotfiles/lua/whichkey.lua
 
