@@ -17,4 +17,4 @@ font-thicken-strength = 1
 adjust-cell-height = 1
 
 # Appearance
-background = #000000
+#background = #000000
